@@ -19,7 +19,7 @@ export class AppComponent implements OnInit {
   }
 
   ngOnInit() {
-     this.patient0 = new Patient('Jim', 'Williams')
+     this.patient0 = new Patient('Jim', 'Williams', 0)
   }
 
   //Get patients from service
