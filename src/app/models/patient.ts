@@ -1,9 +1,11 @@
 export class Patient {
-  firstName: string
-  lastName: string
+  firstName: String
+  lastName: String
+  id: Number
 
-  constructor(firstName: string, lastName: string){
+  constructor(firstName: string, lastName: string, id: Number){
       this.firstName = firstName;
       this.lastName = lastName;
+      this.id = id
   }
 }

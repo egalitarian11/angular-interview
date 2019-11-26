@@ -9,10 +9,10 @@ export class PatientDataService {
   constructor() { }
 
    patients = [
-    { firstName: 'Bob', lastName: 'Wilson' },
-    { firstName: 'Sue', lastName: 'Smith' },
-    { firstName: 'Jesse', lastName: 'Rickson' },
-    { firstName: 'Fred', lastName: 'Jones' }
+    { firstName: 'Bob', lastName: 'Wilson', id: 1 },
+    { firstName: 'Sue', lastName: 'Smith', id: 2  },
+    { firstName: 'Jesse', lastName: 'Rickson', id: 3  },
+    { firstName: 'Fred', lastName: 'Jones', id: 4  }
   ];
 
   getPatients(): Observable<Patient[]>{
