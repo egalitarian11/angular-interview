@@ -11,6 +11,9 @@ import { Patient } from './models/patient'
 export class AppComponent implements OnInit {
   patient0: Patient;
 
+  patients: Patient[]
+  betterPatients: Patient[]
+
   constructor(){
 
   }
